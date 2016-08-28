@@ -1,0 +1,22 @@
+{
+  "name": "tidown",
+  "version": "1.0.4",
+  "description": "Tidal downloader made in Node.JS",
+  "main": "index.iced",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lordmau5",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "checksum": "^0.1.1",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "ffmetadata": "^1.4.0",
+    "fs-extra": "^0.30.0",
+    "queue": "^4.0.0",
+    "string-format": "^0.5.0",
+    "tidalapi": "^0.2.2"
+  }
+}

@@ -1,0 +1,42 @@
+config =
+  username: "" # Enter your username in here
+  password: "" # Enter your password in here
+  token: "" # Enter a developer token in here (don't ask me where to get those!)
+  quality: "HIGH" # Defaults to high as a fail-safe, you can define a custom quality as a parameter
+  port: 3000
+
+  ### Path settings
+  Available modifiers:
+    - track_id
+    - track_title
+    - track_artist
+    - track_number
+    - track_album (if album is set)
+
+    - album_id
+    - album_title
+    - album_artist
+    - album_date
+
+    - playlist_id
+    - playlist_title
+    - playlist_creator
+  ###
+  track_path: "{track_artist} - {track_title}"
+  album_path: "{album_artist}/{album_title} [{album_date}]/{track_number}. {track_title}"
+  playlist_path: "{playlist_title}/{track_number}. {track_title}"
+  #####################
+
+  getPrependingPath: ->
+    "#{__dirname}/download/"
+
+  getFilePath: (base) ->
+    switch base.constructor.name
+      when 'Track'
+        config.track_path
+      when 'Album'
+        config.album_path
+      when 'Playlist'
+        config.playlist_path
+
+module.exports = config
