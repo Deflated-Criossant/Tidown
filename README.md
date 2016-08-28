@@ -29,6 +29,10 @@ Here you have 2 options:
 
 I am *GLAD* that Tidal is not available for free. This makes me feel a little more safe about this project.  
 
+If you don't have NodeJS yet, go download it from over here:  
+https://nodejs.org/en/  
+v4.5.0 or higher is required.
+
 Afterwards, just download the repository and unpack it to some folder.  
 In that folder, open up a CMD or terminal and type the following 2 commands:
 ```
