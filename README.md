@@ -57,7 +57,8 @@ Additionally we could use `-l <limit>` or `--limit <limit>` to set the maximum p
 
 A full documentation on how to use the tool can be found by typing just `iced index.iced`, `iced index.iced --help` or by supplying invalid / missing parameters.
 
-For simplicity's sake, and because I know some people are just lazy ( ;) ), here's the list of the parameters and what they do:  
+For simplicity's sake, and because I know some people are just lazy ( ;) ), here's the list of the parameters and what they do:
+
 | Parameter     | Alternative   | Valid input       | Optional          | Description   |
 |:-------------:|:-------------:|:-----------------:|:-----------------:|:-------------:|
 | `-h`          | `--help`      | -                 | Yes               | output usage information |
