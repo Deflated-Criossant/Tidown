@@ -78,18 +78,9 @@ For simplicity's sake, and because I know some people are just lazy ( ;) ), here
 Windows needs the `ffmpeg.exe` in the root directory or in the `PATH`.
 
 #### Mac OS X 
-Download `ffmeg` pre-built from http://ffmpegmac.net and 
-/configure
-Make
-Make install
-
-or you can download `homebrew` from http://brew.sh and do the following
+Install `homebrew` from http://brew.sh and do the following commands;
 - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 - brew install ffmpeg
-
-
-
-You need to also allow installation from unkown developer's enabling in your app store prefrences.
 
 ### License
 The license can be found in the corresponding `LICENSE.md` file.
