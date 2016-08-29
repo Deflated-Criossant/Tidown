@@ -78,7 +78,7 @@ For simplicity's sake, and because I know some people are just lazy ( ;) ), here
 Windows needs the `ffmpeg.exe` in the root directory or in the `PATH`.
 
 #### Mac OS X 
-Download `ffmeg` pre-built from `ffmpegmac.net` unzip and place in root directory or in the `PATH`, and this will auto-tag your music. 
+Download `ffmeg` pre-built from http://ffmpegmac.net unzip and place in root directory or in the `PATH`, and this will auto-tag your music. 
 
 You need to also allow installation from unkown developer's enabling in your app store prefrences.
 
