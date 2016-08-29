@@ -74,10 +74,10 @@ For simplicity's sake, and because I know some people are just lazy ( ;) ), here
 | `-s`          | `--skip`      | -                 | Yes               | Skips Tagging |
 
 ### Tagging
-## Windows 
+#### Windows 
 Windows needs the `ffmpeg.exe` in the root directory or in the `PATH`.
 
-## Mac OS X 
+#### Mac OS X 
 Download ffmeg pre-built from 'http://www.ffmpegmac.net' unzip and place in root directory or in the 'PATH', and this will auto-tag your music. 
 
 You need to also allow installation from unkown developer's enabling in your app store prefrences.
