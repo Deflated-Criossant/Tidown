@@ -74,8 +74,13 @@ For simplicity's sake, and because I know some people are just lazy ( ;) ), here
 | `-s`          | `--skip`      | -                 | Yes               | Skips Tagging |
 
 ### Tagging
-Yadda yadda yadda.
+#### Windows 
 Windows needs the `ffmpeg.exe` in the root directory or in the `PATH`.
+
+#### Mac OS X 
+Install `homebrew` from http://brew.sh and do the following commands;
+- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- brew install ffmpeg
 
 ### License
 The license can be found in the corresponding `LICENSE.md` file.
